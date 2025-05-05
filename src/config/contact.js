@@ -1,7 +1,7 @@
 export const branches = [
-    "Main Campus - Downtown",
-    "East Side Campus",
-    "West Side Campus",
+    "The Goodland",
+    "Surulere",
+    "Lekki",
   ];
   
   export const socialLinks = [
