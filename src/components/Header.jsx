@@ -37,7 +37,7 @@ export default function Header() {
       component="section"
       id="home"
       pos="relative"
-      h={{ base: '100vh', sm: '100vh' }} // Full screen height
+      h={{ base: '85vh', sm: '100vh' }} // Reduce base height
       style={{ overflow: 'hidden' }} // Prevent content overflow
     >
       {/* Slideshow Background */}

@@ -84,7 +84,7 @@ export default function Events() {
         >
           {eventImages.map((event, index) => (
             <Card key={index} shadow="md" radius="md" p={0} styles={cardStyles}> {/* Replaces outer div */}
-              <Card.Section style={{ position: 'relative', height: rem(256), overflow: 'hidden' }}> {/* h-64 */}
+              <Card.Section style={{ position: 'relative', height: rem(512), overflow: 'hidden' }}> {/* h-64 -> Increased height */}
                 <Image
                   src={event.src}
                   alt={event.title}

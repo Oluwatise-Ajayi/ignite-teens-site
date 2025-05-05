@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Box, Container, Group, Burger, Drawer, Anchor, Title, useMantineTheme } from '@mantine/core';
+import { Box, Container, Group, Burger, Drawer, Anchor, Title, useMantineTheme, Stack } from '@mantine/core';
 import { useDisclosure, useWindowScroll } from '@mantine/hooks';
 
 const navItems = [
@@ -88,7 +88,6 @@ export default function Navbar() {
         td="none"
         style={{ position: 'relative', padding: '8px 4px' }} // Style for underline effect
         sx={(theme) => ({
-          display: isMobile ? 'block' : 'inline-block',
           padding: isMobile ? '10px 15px' : '8px 4px',
           borderRadius: isMobile ? theme.radius.sm : 0,
           borderLeft: isMobile && isActive ? `4px solid ${theme.colors.yellow[4]}` : 'none',
@@ -180,10 +179,9 @@ export default function Navbar() {
             title: { color: theme.colors.yellow[4] }
         }}
       >
-        {/* You can add a logo or other elements here if needed */}
-        <Box mt="md">
+        <Stack mt="md" gap="xs"> {/* Use Stack instead of Box and adjust gap */} 
             {navItems.map(item => createLink(item, true))}
-        </Box>
+        </Stack>
       </Drawer>
     </>
   );

@@ -10,7 +10,10 @@ export const headerImages = [
     "/images/gallery3.jpg",
     "/images/gallery4.jpg",
     "/images/gallery5.jpg",
-    "/images/gallery1.jpg"  // Reusing image as there are only 5 gallery images
+    "/images/gallery1.jpg" ,
+    "/images/header1.jpg",
+    "/images/header2.jpg",
+    "/images/header3.jpg" // Reusing image as there are only 5 gallery images
   ];
   
   export const eventImages = [
