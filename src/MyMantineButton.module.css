@@ -1,0 +1,15 @@
+/* src/MyMantineButton.module.css */
+.wrapper {
+  padding: 20px;
+  border: 1px solid lightcoral; /* Different color for distinction */
+  border-radius: 8px;
+  display: inline-block;
+  margin: 10px;
+  background-color: #f0f0f0;
+}
+
+.labelText {
+  font-style: italic;
+  margin-left: 8px;
+  color: #555;
+} 

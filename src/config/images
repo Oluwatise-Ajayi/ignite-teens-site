@@ -1,0 +1,32 @@
+export const headerImages = [
+    "/images/header1.jpg",
+    "/images/header2.jpg",
+    "/images/header3.jpg"
+  ];
+  
+  export const galleryImages = [
+    "/images/gallery1.jpg",
+    "/images/gallery2.jpg",
+    "/images/gallery3.jpg",
+    "/images/gallery4.jpg",
+    "/images/gallery5.jpg",
+    "/images/gallery1.jpg"  // Reusing image as there are only 5 gallery images
+  ];
+  
+  export const eventImages = [
+    {
+      src: "/images/gallery1.jpg",
+      title: "Youth Camp 2023",
+      description: "A weekend of fun, fellowship, and spiritual growth for teens aged 13-18."
+    },
+    {
+      src: "/images/gallery2.jpg",
+      title: "Worship Night",
+      description: "Join us for an evening of praise and worship with our teen worship band."
+    },
+    {
+      src: "/images/gallery3.jpg",
+      title: "Community Service Day",
+      description: "Making a difference in our community together through acts of service."
+    },
+  ]; 
